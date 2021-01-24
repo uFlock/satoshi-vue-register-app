@@ -1,4 +1,4 @@
-# satoshi
+# Technical Task for Satoshi Ltd
 
 ## Project setup
 ```
