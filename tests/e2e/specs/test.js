@@ -1,6 +1,6 @@
 // https://docs.cypress.io/api/introduction/api.html
 
-const cy = require('cypress');
+const cy = require("cypress");
 
 describe("My First Test", () => {
   it("Visits the app root url", () => {

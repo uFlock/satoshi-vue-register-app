@@ -1,18 +1,17 @@
 <template>
-    <div class="home">
-        <img alt="Vue logo" src="../assets/logo.png"/>
-        <UserProfile msg="Welcome to Your Vue.js App"/>
+    <div>
+        <UserRegister/>
     </div>
 </template>
 
 <script>
 
-import UserProfile from "@/components/UserProfile";
+import UserRegister from "@/components/UserRegister";
 
 export default {
     name: "Home",
     components: {
-        UserProfile
+        UserRegister
     },
     computed: {
 

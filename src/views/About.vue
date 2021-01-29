@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+      <div class="card margin mt-3">
+          <div class="card-body">
+              Technical Task For Satoshi Ltd - Register App
+          </div>
+      </div>
   </div>
 </template>
+
+<style scoped="true">
+    .margin {
+        margin: 5px;
+    }
+</style>

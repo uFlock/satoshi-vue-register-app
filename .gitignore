@@ -2,6 +2,7 @@
 node_modules
 coverage
 /dist
+deployment
 
 /tests/e2e/videos/
 /tests/e2e/screenshots/

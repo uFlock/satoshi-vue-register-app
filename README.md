@@ -1,4 +1,4 @@
-# satoshi
+# satoshi-register-app
 
 ## Project setup
 ```
