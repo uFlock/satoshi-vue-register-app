@@ -6,15 +6,25 @@ npm install
 ```
 
 ### Compiles and hot-reloads for development
+Warning: won't work without .env.development.local file
 ```
 npm run serve
 ```
-
+.env.development.local example:
+```dotenv
+VUE_APP_REGISTER_API_URL=http://localhost:1337/api/user/register
+VUE_APP_NEXT_CONTAINER_URL=http://localhost:8081/
+```
 ### Compiles and minifies for production
+Warning: won't work without .env.production.local file
 ```
 npm run build
 ```
-
+.env.production.local example:
+```dotenv
+VUE_APP_REGISTER_API_URL=http://localhost:1337/api/user/register
+VUE_APP_NEXT_CONTAINER_URL=http://localhost:8081/
+```
 ### Run your unit tests
 ```
 npm run test:unit
