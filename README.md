@@ -30,5 +30,18 @@ npm run test:e2e
 npm run lint
 ```
 
+### Build Container
+```
+docker build -t vue-app-register .
+```
+
+### Run Container In docker
+```
+docker run --name vue-app-register -d -p 8080:80 vue-app-register
+```
+
+### Deploy To Kubernetes
+Use your own deployment configs
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
