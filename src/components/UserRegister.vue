@@ -23,7 +23,7 @@
                     <div class="col-lg-6">
                         <div class="row">
                             <div class="col-lg-12">
-                                <div class="form-floating mb-3">
+                                <div class="form-floating">
                                     <input v-model="username"
                                            id="username"
                                            type="text"
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 mt-1">
-                                <div class="form-floating mb-3">
+                                <div class="form-floating">
                                     <input v-model="password"
                                            id="password"
                                            type="password"
@@ -56,7 +56,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 mt-1">
-                                <div class="form-floating mb-3">
+                                <div class="form-floating">
                                     <input v-model="age"
                                            id="age"
                                            type="number"
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-12 mt-1">
-                                <div class="form-floating mb-3">
+                                <div class="form-floating">
                                     <input v-model="score"
                                            id="score"
                                            type="number"
